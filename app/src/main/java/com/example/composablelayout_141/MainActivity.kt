@@ -63,5 +63,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 .padding(top = 30.dp)
                 .size(200.dp)
         )
+        Text(
+            text = "Nama",
+            style = TextStyle(fontSize = 20.sp, fontStyle = FontStyle.Italic)
+        )
     }
 }
