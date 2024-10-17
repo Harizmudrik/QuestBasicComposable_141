@@ -71,5 +71,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 17.sp, color = Color.Red)
 
         )
+        Text(
+            text = "20220140141",
+            style = TextStyle(fontSize = 35.sp)
+        )
     }
 }
