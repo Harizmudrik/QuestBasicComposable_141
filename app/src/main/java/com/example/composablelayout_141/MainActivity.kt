@@ -80,6 +80,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             contentDescription = "Profile Image",
             modifier = Modifier
                 .size(250.dp)
+                .padding(top = 40.dp)
+                .clip(RoundedCornerShape(100.dp))
         )
     }
 }
