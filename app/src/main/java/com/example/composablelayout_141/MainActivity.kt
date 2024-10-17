@@ -67,5 +67,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "Nama",
             style = TextStyle(fontSize = 20.sp, fontStyle = FontStyle.Italic)
         )
+        Text( text = "Muhammad Hariz Mudrik",
+            style = TextStyle(fontSize = 17.sp)
+
+        )
     }
 }
