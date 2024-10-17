@@ -54,6 +54,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         modifier = modifier.fillMaxSize()
     ) {
-
+        Text(text = "Login", style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold))
     }
 }
