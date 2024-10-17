@@ -75,5 +75,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "20220140141",
             style = TextStyle(fontSize = 35.sp, fontWeight = FontWeight.Bold)
         )
+        Image(
+            painter = painterResource(id = R.drawable.selfphoto),
+            contentDescription = "Profile Image",
+            modifier = Modifier
+                .size(250.dp)
+        )
     }
 }
