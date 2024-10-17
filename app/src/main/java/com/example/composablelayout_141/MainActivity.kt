@@ -56,5 +56,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     ) {
         Text(text = "Login", style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold))
         Text(text = "Ini adalah halaman login")
+        Image(
+            painter = painterResource(id = R.drawable.logouuu),
+            contentDescription = null,
+            modifier = modifier
+                .padding(top = 30.dp)
+                .size(200.dp)
+        )
     }
 }
