@@ -73,7 +73,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         )
         Text(
             text = "20220140141",
-            style = TextStyle(fontSize = 35.sp)
+            style = TextStyle(fontSize = 35.sp, fontWeight = FontWeight.Bold)
         )
     }
 }
